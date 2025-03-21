@@ -40,7 +40,7 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Shield className="w-6 h-6" />
-              <span className="text-xl font-bold">CyberPortfolio</span>
+              <span className="text-xl font-bold">Muhammad Waseem</span>
             </div>
             <div className="hidden md:flex space-x-8">
               {[
@@ -106,7 +106,7 @@ function App() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div className="glass-panel p-8">
                 <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-4 text-glow">
-                  Cybersecurity Expert & BSCS Student
+                  Muhammad Waseem
                 </h1>
                 <p className="text-lg mb-6">
                   Specializing in Penetration Testing & Ethical Hacking
@@ -186,36 +186,12 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
                 {
-                  icon: <Lock className="w-8 h-8" />,
-                  title: "Security Audit Tool",
-                  description: "Automated security assessment tool for web applications",
-                  tech: ["Python", "Docker", "REST APIs"],
-                  github: "https://github.com/yourusername/security-audit-tool",
-                  demo: "https://security-audit-demo.com"
-                },
-                {
                   icon: <Server className="w-8 h-8" />,
-                  title: "Network Monitor",
-                  description: "Real-time network traffic analysis system",
+                  title: "Wazuh Remote Code Execution (RCE) - PoC",
+                  description: "This vulnerability allows attackers to execute arbitrary code on the Wazuh server",
                   tech: ["C++", "Qt", "PCap"],
-                  github: "https://github.com/yourusername/network-monitor",
-                  demo: "https://network-monitor-demo.com"
-                },
-                {
-                  icon: <Globe className="w-8 h-8" />,
-                  title: "Web Vulnerability Scanner",
-                  description: "Custom web application vulnerability scanner",
-                  tech: ["Python", "JavaScript", "SQLMap"],
-                  github: "https://github.com/yourusername/web-vuln-scanner",
-                  demo: "https://vuln-scanner-demo.com"
-                },
-                {
-                  icon: <Shield className="w-8 h-8" />,
-                  title: "Secure File Share",
-                  description: "End-to-end encrypted file sharing platform",
-                  tech: ["React", "Node.js", "Crypto API"],
-                  github: "https://github.com/yourusername/secure-file-share",
-                  demo: "https://secure-file-share-demo.com"
+                  github: "https://github.com/MuhammadWaseem29/CVE-2025-24016",
+                  demo: "https://github.com/MuhammadWaseem29/CVE-2025-24016"
                 }
               ].map((project, index) => (
                 <div key={index} className="glass-panel p-6">
@@ -290,8 +266,8 @@ function App() {
               <div className="flex flex-col items-center space-y-6">
                 <div className="flex items-center space-x-2">
                   <Mail className="w-6 h-6" />
-                  <a href="mailto:contact@example.com" className="hover:text-white transition-colors">
-                    contact@example.com
+                  <a href="mailto:admin@misterwaseem.tech" className="hover:text-white transition-colors">
+                  admin@misterwaseem.tech
                   </a>
                 </div>
                 <div className="flex space-x-6">
@@ -312,7 +288,7 @@ function App() {
         <footer className="py-8 bg-black/50">
           <div className="container mx-auto px-4">
             <div className="text-center text-[#00ff41]/60">
-              © 2024 CyberPortfolio. All rights reserved.
+              © 2025 Muhammad Waseem. All rights reserved.
             </div>
           </div>
         </footer>
